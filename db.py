@@ -5,5 +5,5 @@ from pymongo import MongoClient
 def get_db():
 
     client = MongoClient(
-        "mongodb+srv://darpanguptaris:fitness2da@cluster0.hviltwt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+        "mongodb+srv://rohanchaudhary:<db_password>@cluster0.artvu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     return client["Fitness2DA_database"]
